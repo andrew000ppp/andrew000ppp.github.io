@@ -1,0 +1,95 @@
+/*h1 {
+	color: red;
+	font-size: 60px;
+	font-family: cursive;
+	text-align: center;
+}*/
+
+body {
+	background-color: grey;
+	margin:0;
+	padding:0;
+}
+
+h3 {
+	color: blue;
+	font-size: 50px;
+	font-family: Times New Roman;
+}
+
+.header{
+	color:green;
+	font-size: 50px;
+	font-family: Arial;
+}
+
+#header3 {
+	color: #6676d5;
+	font-size: 100px;
+	background-color: white;
+	text-align: center;
+	margin: 100px 20%;
+	transition-duration: 0.3s;
+}
+
+#header3:hover {
+	background-color: #6676d5;
+	color: white;
+}
+ 
+#cat{
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px grey;
+}
+
+#div1 {
+	background-color: aqua;
+}
+
+#title {
+	background: linear-gradient(45deg, green, aqua);
+	padding: 30px 15% 30px 15%;
+	margin:0px 0px 100px 0px;
+	margin-top: 100px;
+	text-align: center;
+	border: 5px solid black;
+}
+
+#butt {
+	padding: 10px 40px;
+	font-size: 25px;
+	margin: 25px 10%;
+	border: 0;
+	color: gold;
+	background-color: black;
+	transition-duration: 0.5s;
+}
+
+#butt:hover {
+	background-color: gold;
+	color: black;
+	transform: scale(1.5)  rotateY(360deg);
+	box-shadow: 5px 5px 10px grey;
+}
+
+@media only screen and (max-width: 768px) {
+	#header3 {
+		font-size:25px;
+	}
+}
+
+.jumbotron {
+	background-color: blue;
+}
+
+.carousel-item img {
+	width: 80%;
+	padding-left: 10%;
+}
+
+#messageform {
+	padding: 50px 10%;
+}
