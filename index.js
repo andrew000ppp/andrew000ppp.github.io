@@ -44,4 +44,38 @@ alert(newstring)
 
 function triProduct(x, y, z) {
 	alert(x*y*z)
+} 
+
+function slide() {
+	$("#div3").fadeToggle()
+}
+
+function change() {
+	$("#p1").html("New text!")
+	$("#p1").css("font-size", "80px")
+	$("#p1").css("color", "red")
+}
+
+function alertValue() {
+	alert($("#name").val())
+}*/
+
+function validate() {
+	var missing = []
+
+	if($("#name").val()  == "")
+		missing.push("name")
+	if($("#email").val()  == "")
+		missing.push(" email")
+	if($("#message").val()  == "")
+		missing.push(" message")
+
+	if(missing.length == 0) {
+		$("#errorMessage").css("color", "green")
+		$("#errorMessage").html("Success!")
+	} else{
+		$("#errorMessage").css("color", "red")
+		$("#errorMessage").html("You are missing: " + missing)
+	}
+
 }

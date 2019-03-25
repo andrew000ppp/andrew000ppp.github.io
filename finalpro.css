@@ -1,0 +1,78 @@
+/*Custom Link*/
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+body {
+	background-color: aqua;
+	margin: 0;
+	padding: 0;
+}
+#body1 {
+	background-color: green;
+	margin: 0;
+	padding: 0;
+}
+
+#body2 {
+	background-color: yellow;
+	margin: 0;
+	padding: 0;
+}
+
+#body3 {
+	background-color: aqua;
+	margin: 0;
+	padding: 0;
+}
+
+
+#jumbotron {
+	background-color: aqua;
+}
+
+#jumbotron h1 {
+	font-size: 50px;
+	padding: 10%;
+}
+
+#messageform {
+	padding: 100px 10%;
+	background-color: aqua;
+}
+
+#errorMessage {
+	font-size: 25px;
+}
+
+#abmetitle {
+	text-align: center;
+}
+
+#abmediv {
+	background-color: aqua;
+	padding: 5%;
+}
+
+#abmesp {
+	background-color: #4df017;
+}
+
+#abmespes {
+	font-size: 30px;
+	padding: 50px 20%;
+	font-family: Raleway;
+}
+
+#mebsbl1 {
+	display: block;
+	margin: auto;
+	width: 60%;
+	border-radius: 20px;
+	padding-top: 20px ;
+	position: left;
+}
+
+.carousel-item img {
+	width: 80%;
+	padding-left: 23%;
+	height: 600px;
+}
