@@ -16,12 +16,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script src="finalpro.js"></script>
-
-		<link rel="stylesheet" href="finalpro.css">
+>
+		<link rel="stylesheet" href="finalpro.css"
 
 
 	</head>
-	<body id="body3">
+	<body id="body1">
 
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		  <a class="navbar-brand" href="#">Andrew Ku</a>
@@ -30,7 +30,8 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		    <ul class="navbar-nav">
-		      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="finalpg2.html">About</a>
@@ -40,16 +41,42 @@
 		      </li>
 		    </ul>
 		  </div>
-		</nav>		
+		</nav>
+
+		<div id="jumbotron">
+			<h1> Welcome to My Site! </h1>
+		</div>
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="welcome_to_site_1.jpg" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="welcome_to_site_2.jpg" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="welcome_to_site_3.jpg" alt="...">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
 
 
-			<div id="messageform">
-			<h3> Send Me a Message! </h3>
-			<input class="form-control" type="text" placeholder="Enter your name..." id="name">
-			<input class="form-control" type="text" placeholder="Enter your email..." id="email">
-			<textarea class="form-control" placeholder="Enter your message..." rows="5" id="message"></textarea>
-			<button onclick="validate()" class="btn btn-success">Submit Message</button>
-			<p id="errorMessage"></p>
+		<div>
+			<h1>      </h1>
 		</div>
 
 	</body>
